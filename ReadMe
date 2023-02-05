@@ -1,0 +1,48 @@
+**Build**
+> g++ Game.cpp -o Game
+
+
+**Launch**
+Either launch "Game" from terminal
+> Game
+or
+Double click the "Game" application to launch
+
+
+**Test**
+Launch Game with argument "test" from terminal to run in test mode
+> Game test
+
+Logs will be redirected to "test_output.txt" file.
+
+Since this will not be a user interaction, 
+thus adding logs to terminal will not be thoughtful
+
+
+**Documentation**
+
+## Design Structure
+- There are two classes: Game and Tester
+- Game class implements the core functionality of the Rock-Paper-Scissor Game
+- Tester class it to test the Game class on all possible user inputs, 
+    and check if correct output is being displayed
+
+- Object oriented programming apporach is used
+- Each class is created with a constructor and destructor
+- All class members are prefixed with "m_" for easy identification
+- Any in-method varible is being declared at start of a method to keep track
+- Objects are being destored and pointers are set to null upon destruction
+
+
+## Functioning
+- Rock, Paper, Scissor are equivalent to 0, 1, 2
+- By theory,
+- Rock is strong over Scissor
+- Paper is strong over Rock
+- Scissor is strong over Paper
+- this simplifies to "(i+1)th mod" <integer to option> is stronger over "ith" option
+
+
+## Testing ans Use
+- Application is being developed and tested on windows machine
+- Linux and Mac OS should be straight forward, just need to be build there.

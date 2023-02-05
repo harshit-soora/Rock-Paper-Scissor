@@ -1,0 +1,36 @@
+
+---ITS A DRAW---
+You: ROCK
+Computer: ROCK
+
+---YOU LOSE---
+You: ROCK
+Computer: PAPER
+
+---YOU ARE THE WINNER---
+You: ROCK
+Computer: SCISSOR
+
+---YOU ARE THE WINNER---
+You: PAPER
+Computer: ROCK
+
+---ITS A DRAW---
+You: PAPER
+Computer: PAPER
+
+---YOU LOSE---
+You: PAPER
+Computer: SCISSOR
+
+---YOU LOSE---
+You: SCISSOR
+Computer: ROCK
+
+---YOU ARE THE WINNER---
+You: SCISSOR
+Computer: PAPER
+
+---ITS A DRAW---
+You: SCISSOR
+Computer: SCISSOR
