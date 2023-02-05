@@ -220,7 +220,7 @@ int main(int argc, char **argv)
 			std::cout << "\nPress your choice to begin\n";
 			g->play();
 		}
-		std::cout << "\nSee you again, bye.";
+		std::cout << "\nSee you again, bye.\n";
 
 		delete g;
 	}

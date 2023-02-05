@@ -6,7 +6,7 @@
 Either launch "Game" from terminal
 > Game
 or
-Double click the "Game" application to launch
+Double click the "Game" application to launch [Windows]
 
 
 **Test**
@@ -43,6 +43,12 @@ thus adding logs to terminal will not be thoughtful
 - this simplifies to "(i+1)th mod" <integer to option> is stronger over "ith" option
 
 
-## Testing ans Use
+## Testing and Use
 - Application is being developed and tested on windows machine
 - Linux and Mac OS should be straight forward, just need to be build there.
+
+Linux
+For test mode
+> ./Game test 
+For user mode
+> ./Game
